@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Professional Portfolio</title>
+        <link rel="style.css" href="./css/style.css">
+        <style>
+
+            body{
+                background-color: #A4F9F5;
+            }
+            
+            .menu{
+                list-style-type: none;
+                overflow:hidden;
+                text-align: center;
+            }
+            
+            .nav{
+                display:inline;
+                font-family:'Hammersmith One', sans-serif;
+                text-align: center;
+            }
+            
+            .link{
+                color:#FD5A99;
+                padding:100px;
+                text-decoration: none;
+            }
+            
+            .nav:hover{
+                background-color: #DCA5FC;
+            }
+            
+            .logo{
+                text-align: center;
+                background-color:#FDB6FC;
+                color:#FD5A99;
+                border:2px #FDB6FC;
+                padding:20px;
+                background-size:auto;
+                font-family: 'Hammersmith One', sans-serif;
+            }
+
+            .profile{
+                height:20%;
+                width:20%;
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 50%;
+            }
+
+    footer{
+        text-align: center;
+        font-family: 'Hammersmith One', sans-serif;
+        color:#FD5A99;
+    }
+
+    .sectionOne{
+        color:#FD5A99;
+        background-color: #FDB6FC;
+        padding:5px;
+        margin:20px 0px 0px 0px;
+        text-align: center;
+        font-family: 'Hammersmith One', sans-serif;
+    }
+
+    .sectionTwo{
+        color: #FD5A99;
+        text-align: center;
+        background-color: #FDB6FC;
+        padding:5px;
+        margin:50px 0px 50px 0px;
+        font-family: 'Hammersmith One', sans-serif;
+    }
+
+    .sectionThree{
+        color:#FD5A99;
+        text-align: center;
+        background-color: #FDB6FC;
+        font-family: 'Hammersmith One', sans-serif;
+        margin:0px 0px 50px 0px;
+    }
+
+    .instagram{
+        height:20%;
+        width:20%;
+    }
+    .link{
+        height:20%;
+        width:20%;
+    }
+
+    .facebook{
+        height:20%;
+        width:20%;
+    }
+
+    .Project{
+        height:50%;
+        width:50%;
+    }
+
+    .column{
+        float:left;
+        width:30%;
+        padding:5px;
+        margin:0px 0px 0px 30px;
+    }
+
+    .row::after{
+        content:"";
+        clear:both;
+        display:table;
+    }
+
+    p{
+        font-family:'Hammersmith One', sans-serif;
+        color:#FD5A99;
+        font-size: 130%;
+    }
+</style>
+
+</head>
+<body>
+    <h1 class = "logo">The Journey through</h1>
+
+    <header>
+    <nav class="menu">
+        <h2>
+        <li class = "nav"> <a href="#home" class = "link"> Home </a> </li>
+        <li class = "nav"> <a href="#about" class = "link"> About </a> </li>
+        <li class = "nav"> <a href="#projects" class = "link"> Projects </a> </li>
+        <li class = "nav"> <a href="#personal info" class = "link"> Personal Info </a> </li>
+        </h2>
+    </nav>
+    </header>
+
+    <main>
+        <img src = "Me2.jpg" class = "profile" alt = "Me2">
+
+        <section class="sectionOne">
+            <h2>About</h2>
+
+            <p>
+                Since I don't know the proper way to go about talking about myself I'll just start with the easier parts
+                I had graduated high school from Saint Vincent-Saint Mary afterwards I started my first semester
+                of college at Walsh University. My major being Computer Science and a minor in arts. Sadly I wasn't
+                able to finish my four year degree because Covid-19 had made paying tuition very difficult so I was forced to take
+                a year off of any school. It's how I found my way to <b>We Can Code It</b>, finding it to be a perfect substitute
+                for college by helping me focus all my time to only coding and showing me job offers that might be perfect for my
+                set of skills.
+            </p>
+
+        </section>
+
+        <section class="sectionTwo">
+            <h2>Project</h2>
+
+            <div class="row">
+            <div class="column">
+            <a href = "https://github.com/2021-Spring-Cohort/m1-comp-thinking-skye-mitchell/commit/b9a34e9fad6e3307e23bd002604974debeb7cb74">
+            <img src = "code.jpg" class = "Project" alt = "Comp">
+            </a>
+            <h3>Comp Thinking Project</h3>
+            </div>
+
+            <div class="column">
+            <a href = "https://github.com/2021-Spring-Cohort/m1-loops-skye-mitchell/commit/73b448add2399e5817e18e3468bd64cb31d3f22d">
+            <img src = "code2.jpg" class = "Project" alt = "Loops">
+            </a>
+            <h3>Loops Project</h3>
+            </div>
+            
+            <div class="column">
+            <a href = "https://github.com/2021-Spring-Cohort/m1-virtual-pet-the-god-squad/commit/4503dc22f15c8c13789ad0dd0ebeef3a5cd6be4b">
+            <img src = "code3.jpg" class = "Project" alt = "Virtual Pet">
+            </a>
+            <h3>Virtual Pet Project</h3>
+            </div>
+            </div>
+
+        </section>
+
+        <section class="sectionThree">
+            <h2>Personal info</h2>
+
+            <div class="row">
+                <div class="column">
+                <a href = "https://www.facebook.com/skye.mitchell.969">
+                <img src = "facebook.png" class = "facebook" alt = "facebook">
+                </a>
+                <h3>Comp Thinking Project</h3>
+                </div>
+    
+                <div class="column">
+                <a href = "https://www.instagram.com/p/CI_uFNtg1vz/?igshid=1hwgfy8vu18bc">
+                <img src = "instagram.png" class = "instagram" alt = "instagram">
+                </a>
+                <h3>Loops Project</h3>
+                </div>
+                
+                <div class="column">
+                <a href = "">
+                <img src = "link.png" class = "link" alt = "link">
+                </a>
+                <h3>Virtual Pet Project</h3>
+                </div>
+                </div>
+
+        </section>
+    </main>
+
+    <footer> @copy The Journey Through 2021</footer>
+</body>
+</html>

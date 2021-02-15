@@ -1,0 +1,97 @@
+body{
+    background-color: #A4F9F5;
+}
+
+.menu{
+    list-style-type: none;
+    overflow:hidden;
+    text-align: center;
+}
+
+.nav{
+    display:inline;
+    font-family:'Hammersmith One', sans-serif;
+    margin:auto;
+    text-align: center;
+}
+
+.link{
+    margin:0px 100px 0px 100px;
+    color:#FD5A99;
+    padding:100px;
+    color: #FD5A99;
+    text-decoration: none;
+}
+
+.nav:hover{
+    background-color: #DCA5FC;
+}
+
+.logo{
+    text-align: center;
+    background-color:#FDB6FC;
+    color:#FD5A99;
+    border:2px #FDB6FC;
+    padding:20px;
+    background-size:auto;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    color:#FD5A99;
+}
+
+.sectionOne{
+    color:#FD5A99;
+    background-color: #FDB6FC;
+    padding:5px;
+    margin:20px 0px 0px 0px;
+    text-align: left;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.sectionTwo{
+    color: #FD5A99;
+    text-align: right;background-color: #FDB6FC;
+    padding:5px;
+    margin:50px 0px 50px 0px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.sectionThree{
+    color:#FD5A99;
+    text-align: left;
+    background-color: #FDB6FC;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.profile{
+    height:20%;
+    width:20%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.instagram{
+    height:5%;
+    width:5%;
+    margin:0px 50px 0px 200px;
+}
+.link{
+    height:5%;
+    width:5%;
+    margin:0px 50px 0px 0px;
+}
+
+.facebook{
+    height:5%;
+    width:5%;
+}
+
+.Project{
+    height:20%;
+    width:20%;
+}
