@@ -2,96 +2,205 @@ body{
     background-color: #A4F9F5;
 }
 
-.menu{
+ul {
     list-style-type: none;
-    overflow:hidden;
-    text-align: center;
-}
-
-.nav{
-    display:inline;
-    font-family:'Hammersmith One', sans-serif;
-    margin:auto;
-    text-align: center;
-}
-
-.link{
-    margin:0px 100px 0px 100px;
-    color:#FD5A99;
-    padding:100px;
+    margin:0px 0px 20px 250px;
+    padding: 0px;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
     color: #FD5A99;
+    text-align: center;
+    font-size:160%;
+    font-weight: bold;
+    padding: 14px 50px;
     text-decoration: none;
-}
-
-.nav:hover{
-    background-color: #DCA5FC;
-}
-
-.logo{
-    text-align: center;
-    background-color:#FDB6FC;
-    color:#FD5A99;
-    border:2px #FDB6FC;
-    padding:20px;
-    background-size:auto;
-    font-family: 'Hammersmith One', sans-serif;
-}
-
-footer{
-    text-align: center;
-    font-family: 'Hammersmith One', sans-serif;
-    color:#FD5A99;
-}
-
-.sectionOne{
-    color:#FD5A99;
+  }
+  
+  li a:hover {
     background-color: #FDB6FC;
-    padding:5px;
-    margin:20px 0px 0px 0px;
-    text-align: left;
-    font-family: 'Hammersmith One', sans-serif;
-}
+  }
 
-.sectionTwo{
-    color: #FD5A99;
-    text-align: right;background-color: #FDB6FC;
-    padding:5px;
-    margin:50px 0px 50px 0px;
-    font-family: 'Hammersmith One', sans-serif;
-}
-
-.sectionThree{
-    color:#FD5A99;
-    text-align: left;
-    background-color: #FDB6FC;
-    font-family: 'Hammersmith One', sans-serif;
-}
-
-.profile{
-    height:20%;
+  .Profile{
     width:20%;
-    display:block;
+    height:20%;
+    border-radius: 50%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
+  }
+
+  h1{
+      color:#FD5A99;
+      text-align: center;
+      font-size:400%;
+      background-color: rgb(253, 182, 252, 0.8);
+      padding:40px;
+  }
+
+  h2{
+    font-size: 250%;
+    color:#FD5A99;
+
+  }
+
+  p{
+    font-size: 140%;
+    color:#FD5A99;
+  }
+
+  * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  margin: 0px auto; // center
+  width:100px; 
+  height:350px; 
+  text-align:center; 
 }
-.instagram{
-    height:5%;
-    width:5%;
-    margin:0px 50px 0px 200px;
-}
-.link{
-    height:5%;
-    width:5%;
-    margin:0px 50px 0px 0px;
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
-.facebook{
-    height:5%;
-    width:5%;
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
-.Project{
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.Slide{
+  width: 35%;
+  height: 35%;
+}
+
+.Undertale{
+  width:30%;
+  height:30%;
+  margin:-50px 0px 0px 0px;
+}
+
+.Owl{
+  width:30%;
+  height:30%;
+  margin:-50px 0px 0px 0px;
+}
+
+  .sectionOne{
+    background-color:rgb(253, 182, 252, 0.8);
+  }
+
+  .sectionTwo{
+    background-color:rgb(253, 182, 252, 0.8);
+  }
+
+  .sectionThree{
+    background-color:rgb(253, 182, 252, 0.8);
+  }
+
+  .sectionFour{
+    background-color:rgb(253, 182, 252, 0.8);
+  }
+
+  h3{
+    font-size: 140%;
+    color:#FD5A99;
+    margin:0px 0px 0px 70px;
+  }
+  
+  h3 {
+    color: #FD5A99;
+    font-size:160%;
+  }
+
+  h3:hover {
+    background-color: #FDB6FC;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .Project{
+      height:70%;
+      width:70%;
+      margin:0px 0px 0px 70px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .Icon{
     height:20%;
     width:20%;
+    margin:0px 0px 0px 150px;
 }
+
+  footer{
+    text-align: center;
+    color:#FD5A99;
+    font-size: 100%;
+    font-weight: bold;
+  }
